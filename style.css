@@ -58,6 +58,7 @@ p{
     margin-top: 100px;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left center;
     margin-bottom: 150px;
     
 }
