@@ -11,18 +11,19 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.banner_item{
+.half_width {
     width: 50%;
     padding-left: 5%;   
 }
-.banner_item a{
+.half_width a {
     text-decoration: none;
     background-color: #083c72;
     padding: 10px 40px;
+    
     color: white;
     border-radius: 7px;
 }
-.banner_item img{
+.half_width img {
     width: 80%;
 }
 h1{
@@ -40,4 +41,63 @@ h4{
 }
 p{
     font-size: 18px;
+}
+.about_me{
+    margin-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about{
+    color: #fa725c;
+}
+.about_me h3{
+    color: #083c72;
+}
+.experience{
+    margin-top: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+    
+}
+.experience h1 {
+    font-size: 50px;
+    color: #083c72;
+    text-align: center;
+}
+.select_word {
+    font-size: 30px;
+    text-align: center;
+    color: #fa725c;
+}
+.experience_item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    
+}
+.exp_heading{
+    color: #fa725c;
+}
+#web_dev_exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(28, 198, 255));
+    border-image-slice: 1;
+}
+#web_dsgn_exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, #fb6a58);
+    border-image-slice: 1;
+}
+#grap_exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, #ffab2c);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
